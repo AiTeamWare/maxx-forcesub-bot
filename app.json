@@ -9,7 +9,11 @@
   "repository": "https://github.com/MaxWizard1/maxx-forcesub-bot",
   "success_url": "https://github.com/MaxWizard1/maxx-forcesub-bot",
   "website": "https://github.com/MaxWizard1/maxx-forcesub-bot",  
-  "addons": [],
+  "addons": [
+  {
+    "plan": "heroku-postgresql"
+    }
+  ],
   "buildpacks": [],
   "formation": {
     "worker": {
