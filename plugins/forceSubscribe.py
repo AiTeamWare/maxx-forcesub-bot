@@ -51,7 +51,7 @@ def SendMsg(client, message):
 @app.on_message(Filters.command(["forcesubscribe"]) & ~Filters.private)
 def config(client, message):
   user = client.get_chat_member(message.chat.id, message.from_user.id)
-  if user.status is "creator":
+  if user.status == "creator":
     chat_id = message.chat.id
     try:
       input_str = message.command[1]
