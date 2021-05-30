@@ -6,9 +6,9 @@
     "eaglescout",
     "forcesub"
   ],
-  "repository": "https://github.com/MaxWizard1/maxx-forcesub-bot",
-  "success_url": "https://github.com/MaxWizard1/maxx-forcesub-bot",
-  "website": "https://github.com/MaxWizard1/maxx-forcesub-bot",  
+  "repository": "https://github.com/AiTeamWare/maxx-forcesub-bot",
+  "success_url": "https://github.com/AiTeamWare/maxx-forcesub-bot",
+  "website": "https://github.com/AiTeamWare/maxx-forcesub-bot",  
   "addons": [
   {
     "plan": "heroku-postgresql"
