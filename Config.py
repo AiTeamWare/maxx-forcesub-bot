@@ -3,10 +3,10 @@ import os
 class Config():
   ENV = bool(os.environ.get('ENV', False))
   if ENV:
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1887382044:AAG3mTPscVcHV7pQ8lXF9Xg_lDAlDP0Od_Y")
     DATABASE_URL = os.environ.get("DATABASE_URL", None)
-    APP_ID = os.environ.get("APP_ID", 6)
-    API_HASH = os.environ.get("API_HASH", None)
+    APP_ID = os.environ.get("APP_ID", 4940448)
+    API_HASH = os.environ.get("API_HASH", "c9fea4bfc51719d4d26d39151bb1ead5")
   else:
     BOT_TOKEN = "1887382044:AAG3mTPscVcHV7pQ8lXF9Xg_lDAlDP0Od_Y"
     DATABASE_URL = ""
